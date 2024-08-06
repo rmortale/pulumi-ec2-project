@@ -1,0 +1,7 @@
+name: pulumi-ec2-project
+runtime: java
+description: Project to deploy ec2 instances for AWS cloud
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-java
